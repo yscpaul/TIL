@@ -32,3 +32,4 @@
   
 - GP-GL은 Graphtec Plotter Graphic Language의 약어로, Graphtec 사의 플로터 장비를 제어하기 위해 사용되는 그래픽 명령어 세트입니다.
 
+
