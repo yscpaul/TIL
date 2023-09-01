@@ -11,6 +11,9 @@
 > https://github.com/mdc-maui/mdc-maui
 ![Alt text](image-3.png)
 
+- SimpleToolkit
+> https://github.com/RadekVyM/SimpleToolkit#simpletoolkitcore
+
 - RatingView
 > https://github.com/naweed/Maui.Controls.RatingView
 
