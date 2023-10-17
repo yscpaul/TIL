@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiLayoutTest"
+             xmlns:alohakit="clr-namespace:AlohaKit.Layouts;assembly=AlohaKit.Layouts"
+             x:Class="MauiLayoutTest.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="WidthRequest" Value="100" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <local:CustomGrid>
+        <BoxView Color="Red" />
+        <BoxView Color="Yellow" />
+        <BoxView Color="Orange" />
+        <BoxView Color="Purple" />
+        <BoxView Color="Blue" />
+        <BoxView Color="Green" />
+        <BoxView Color="LightGreen" />
+        <BoxView Color="Gray" />
+        <BoxView Color="Pink" />
+    </local:CustomGrid>
+
+
+</ContentPage>
