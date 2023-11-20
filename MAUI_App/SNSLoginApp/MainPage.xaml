@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SNSLoginApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" VerticalOptions="Center">
+            <Button
+                x:Name="btnTJ"
+                Background="orange"
+                Clicked="btnTJ_Clicked"
+                Text="TJ 로그인" />
+            <Button
+                x:Name="btnKakao"
+                Background="Yellow"
+                Clicked="btnKakao_Clicked"
+                Text="Kakao 로그인"
+                TextColor="Black" />
+            <Button
+                x:Name="btnNaver"
+                Background="Green"
+                Clicked="btnNaver_Clicked"
+                Text="Naver 로그인" />
+            <WebView
+                x:Name="webView"
+                HeightRequest="800"
+                Navigated="webView_Navigated"
+                Source="" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

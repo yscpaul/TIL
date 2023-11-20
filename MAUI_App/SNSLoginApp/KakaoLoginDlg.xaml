@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup
+    x:Class="SNSLoginApp.KakaoLoginDlg"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    <Grid RowDefinitions="*,80">
+
+        <Border Grid.Row="0">
+            <WebView x:Name="webView" Source="http://kakao.co.kr" />
+        </Border>
+        <Border Grid.Row="1">
+            <Button
+                x:Name="btnClose"
+                Clicked="btnClose_Clicked"
+                Text="Close" />
+        </Border>
+
+    </Grid>
+</toolkit:Popup>
