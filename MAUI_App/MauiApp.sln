@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassXYZ.Vault", "PassXYZ.Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNSLoginApp", "SNSLoginApp\SNSLoginApp.csproj", "{19363E8A-E983-47A0-BA4E-3DF6EBB33F47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InifiniteScrollDemoApp", "InifiniteScrollDemoApp\InifiniteScrollDemoApp.csproj", "{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{19363E8A-E983-47A0-BA4E-3DF6EBB33F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19363E8A-E983-47A0-BA4E-3DF6EBB33F47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19363E8A-E983-47A0-BA4E-3DF6EBB33F47}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="InifiniteScrollDemoApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:models="clr-namespace:InifiniteScrollDemoApp.Models"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid Padding="50">
+        <ActivityIndicator
+            IsRunning="True"
+            IsVisible="{Binding IsBusy}"
+            Color="red" />
+
+        <CollectionView
+            ItemsSource="{Binding Todos}"
+            RemainingItemsThreshold="1"
+            RemainingItemsThresholdReachedCommand="{Binding GetNextDataCommand}"
+            VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+
+                <DataTemplate x:DataType="models:Todo">
+
+                    <Frame
+                        Margin="10"
+                        Padding="10"
+                        BackgroundColor="#eee">
+                        <VerticalStackLayout>
+
+                            <HorizontalStackLayout>
+                                <Label Text="ID: " />
+                                <Label Text="{Binding Id}" />
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout>
+                                <Label Text="User ID: " />
+                                <Label Text="{Binding UserId}" />
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout>
+                                <Label Text="Title: " />
+                                <Label Text="{Binding title}" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>
