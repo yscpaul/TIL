@@ -7,9 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsApp", "NewsApp\NewsApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassXYZ.Vault", "PassXYZ.Vault\PassXYZ.Vault.csproj", "{88E1385D-D017-4A16-A538-DE0D0789F3EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNSLoginApp", "SNSLoginApp\SNSLoginApp.csproj", "{19363E8A-E983-47A0-BA4E-3DF6EBB33F47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SNSLoginApp", "SNSLoginApp\SNSLoginApp.csproj", "{19363E8A-E983-47A0-BA4E-3DF6EBB33F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InifiniteScrollDemoApp", "InifiniteScrollDemoApp\InifiniteScrollDemoApp.csproj", "{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InifiniteScrollDemoApp", "InifiniteScrollDemoApp\InifiniteScrollDemoApp.csproj", "{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReorderableCollectionView.Maui", "ReorderableCollectionView.Maui\ReorderableCollectionView.Maui.csproj", "{DB67C247-6D86-47C8-A05A-62426341C433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReorderableCollectionViewDemos", "ReorderableCollectionViewDemos\ReorderableCollectionViewDemos.csproj", "{88604A72-8040-4175-8DB9-48F5D103D0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseDemo", "FirebaseDemo\FirebaseDemo.csproj", "{6039BCDF-B53E-4778-B82E-59D40470147E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,22 @@ Global
 		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C26EB0A2-B703-4BC0-8B38-0DE4B072D763}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB67C247-6D86-47C8-A05A-62426341C433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB67C247-6D86-47C8-A05A-62426341C433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB67C247-6D86-47C8-A05A-62426341C433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB67C247-6D86-47C8-A05A-62426341C433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88604A72-8040-4175-8DB9-48F5D103D0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88604A72-8040-4175-8DB9-48F5D103D0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88604A72-8040-4175-8DB9-48F5D103D0C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{88604A72-8040-4175-8DB9-48F5D103D0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88604A72-8040-4175-8DB9-48F5D103D0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88604A72-8040-4175-8DB9-48F5D103D0C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6039BCDF-B53E-4778-B82E-59D40470147E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6039BCDF-B53E-4778-B82E-59D40470147E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6039BCDF-B53E-4778-B82E-59D40470147E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6039BCDF-B53E-4778-B82E-59D40470147E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6039BCDF-B53E-4778-B82E-59D40470147E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6039BCDF-B53E-4778-B82E-59D40470147E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@
     xmlns:models="clr-namespace:InifiniteScrollDemoApp.Models"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Grid Padding="50">
+    <Grid Padding="50" >
         <ActivityIndicator
             IsRunning="True"
             IsVisible="{Binding IsBusy}"
